@@ -1,0 +1,25 @@
+import "./topbar.css"
+import React from 'react';
+export default function TopBar() {
+    return(
+    <div className="top">
+
+    <div className="topLeft">l<i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-pinterest"></i>
+    <i class="fa-brands fa-square-instagram"></i>
+    <i class="fa-brands fa-youtube"></i>
+    </div>
+
+    <div className="topCenter">
+        <ul className="toplist">
+            <li className="topListItem">HOME</li>
+            <li className="topListItem">SERVICES</li>
+            <li className="topListItem">ABOUT</li>
+            <li className="topListItem">HOME</li>
+            <li className="topListItem">CONTACT</li>
+        </ul>
+    </div>
+    <div className="topRight">r</div>
+    </div>
+    )
+}
