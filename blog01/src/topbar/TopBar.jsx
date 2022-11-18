@@ -15,6 +15,7 @@ export default function TopBar() {
     <div className="topCenter">
         <ul className="topList">
 
+
     <div className="topLeft">l<i class="fa-brands fa-facebook"></i>
     <i class="fa-brands fa-pinterest"></i>
     <i class="fa-brands fa-square-instagram"></i>
@@ -23,6 +24,7 @@ export default function TopBar() {
 
     <div className="topCenter">
         <ul className="toplist">
+
 
             <li className="topListItem">HOME</li>
             <li className="topListItem">SERVICES</li>
@@ -38,7 +40,9 @@ export default function TopBar() {
         </div>
         
 
+
     <div className="topRight">r</div>
+
 
     </div>
     )

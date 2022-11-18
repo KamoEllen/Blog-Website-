@@ -1,8 +1,11 @@
 .top{
+    width: 100%;
+
 
     width: 100%;
 
     width: 120%;
+
 
     height: 50px;
     background-color: white;
@@ -11,9 +14,16 @@
     display:flex;
     align-items:center;
     font-family: 'Josefin Sans', sans-serif;
+
+    z-index: 999;
 }
 .topLeft , .topRight{
     flex:3;
+
+}
+.topLeft , .topRight{
+    flex:3;
+
 
     display:flex;
     align-items:center;
@@ -55,9 +65,11 @@
     cursor:pointer;
     margin-left: 16px;
 
+
     background-color: tomato;
 }
 .topCenter{
     flex: 6;
+
 
 }
