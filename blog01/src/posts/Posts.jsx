@@ -1,8 +1,11 @@
+
 import Post from "../post/Post"
+
 import "./posts.css"
 export default function Posts(){
     return(
         <div className="posts">
+
             <Post/>
             <Post/>
             <Post/>
@@ -11,6 +14,7 @@ export default function Posts(){
             <Post/>
             <Post/>
             <Post/>
+
             posts
         </div>
     )
