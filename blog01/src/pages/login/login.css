@@ -1,0 +1,16 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url("https://i.pinimg.com/564x/6c/66/1e/6c661eaea288184fe9e4ca63f2bbb666.jpg");
+    background-size: cover;
+}
+.loginTitle{
+   font-size: 50px; 
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
