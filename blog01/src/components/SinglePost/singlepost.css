@@ -10,6 +10,7 @@ padding-right: 0;
     height: 300px;
     border-radius: 5px;
     object-fit: cover;
+
 }
 
 .singlePostTitle{
@@ -53,3 +54,5 @@ cursor: pointer;
     font-size: 30px;
     font-weight: 600;
 }
+}
+
