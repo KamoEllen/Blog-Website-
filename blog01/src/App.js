@@ -15,7 +15,11 @@ import {
 import Login from "./pages/login/Login";
 
 export default function App() {
+
+  const user = true;
+
   const user = false;
+
   return (
     <Router>
     <TopBar/>
@@ -23,6 +27,7 @@ export default function App() {
       <Route exact path="/home">
         <Home/>
       </Route>
+
       <Route path="/register">{ user ? <Home/> :<Register/>}</Route>
       <Route path="/"login>{user ? <Home/> :<Login/>}</Route>
       <Route path="/write">{user ? <Write/> :<Register/>}</Route>
@@ -33,6 +38,8 @@ export default function App() {
       </Route>
       </Switch>
     </Router>
+
+
 import TopBar from "./components/topbar/TopBar";
 import Single from "./single/Single";
 
@@ -63,8 +70,7 @@ function App() {
 }
 
 
-
-
 export default App;
+
 
 
