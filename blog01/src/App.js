@@ -12,6 +12,12 @@ import {
   Route,
   Link
 }from "react-router-dom";
+
+
+
+export default function App() {
+  const user = true;
+
 import Login from "./pages/login/Login";
 
 export default function App() {
@@ -19,6 +25,7 @@ export default function App() {
   const user = true;
 
   const user = false;
+
 
   return (
     <Router>
@@ -65,12 +72,13 @@ function App() {
 
 
     </>
-
   );
 }
 
 
+
 export default App;
+
 
 
 

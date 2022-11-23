@@ -1,9 +1,11 @@
 import "./topbar.css"
 
+
 import {Link} from"react-router-dom";
 import React from 'react';
 export default function TopBar() {
     const user = true;
+
 
 import React from 'react';
 export default function TopBar() {
@@ -47,6 +49,7 @@ export default function TopBar() {
         <i className="topSearchIcon fas fa-search"></i>
             
    </div>
+
      <li className="topListItem">HOME</li>
             <li className="topListItem">SERVICES</li>
             <li className="topListItem">ABOUT</li>
@@ -58,6 +61,7 @@ export default function TopBar() {
     <img className="topImg" src="https://avatars.githubusercontent.com/u/108501662?v=4" alt=" ">
         </img><i className="topSearchIcon fas fa-search"></i>
         </div>
+
 
     </div>
     )
