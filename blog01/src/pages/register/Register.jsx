@@ -1,10 +1,4 @@
-
 import { Link } from 'react-router-dom';
-
-
-import { Link } from 'react-router-dom';
-
-
 import './register.css'
 
 export default function Register() {
