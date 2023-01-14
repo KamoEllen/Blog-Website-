@@ -5,17 +5,6 @@ export default function TopBar() {
     <div className="top">
 
 
-    <div className="topLeft">
-    <i className="topIcon fa-brands fa-facebook"></i>
-    <i className="topIcon fa-brands fa-pinterest"></i>
-    <i className="topIcon fa-brands fa-square-instagram"></i>
-    <i className="topIcon fa-brands fa-youtube"></i>
-    </div>
-
-    <div className="topCenter">
-        <ul className="topList">
-
-
     <div className="topLeft">l<i class="fa-brands fa-facebook"></i>
     <i class="fa-brands fa-pinterest"></i>
     <i class="fa-brands fa-square-instagram"></i>
@@ -39,9 +28,6 @@ export default function TopBar() {
         </img><i className="topSearchIcon fas fa-search"></i>
         </div>
         
-
-
-    <div className="topRight">r</div>
 
 
     </div>
